@@ -20,7 +20,21 @@
 **/.turbo/
 **/.cache/
 **/.vercel/
-**/.expo/
+
+# -------------------------------
+# Next.js specific (recursive)
+# -------------------------------
+**/.next/
+**/out/
+.next/
+out/
+
+# Static export files (in case you're using `next export`)
+**/exported/
+exported/
+
+# Optional Next.js telemetry
+.next/telemetry
 
 # -------------------------------
 # Logs & debug files (recursive)
