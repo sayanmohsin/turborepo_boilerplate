@@ -1,3 +1,14 @@
 packages:
-  - "apps/*"
-  - "packages/*"
+  - apps/*
+  - packages/*
+
+onlyBuiltDependencies:
+  - '@prisma/client'
+  - '@prisma/engines'
+  - prisma
+
+ignoredBuiltDependencies:
+  - '@biomejs/biome'
+  - '@nestjs/core'
+  - '@swc/core'
+  - sharp
